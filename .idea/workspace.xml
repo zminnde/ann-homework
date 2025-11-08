@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cae40d1-55dc-4d3e-b0e7-16a960e3177b" name="Changes" comment="1. Model 2 layers 0.9001 0.2735">
+    <list default="true" id="4cae40d1-55dc-4d3e-b0e7-16a960e3177b" name="Changes" comment="2. Model 2 layers with glove 0.8723 0.2993">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lstm.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lstm.ipynb" afterDir="false" />
     </list>
@@ -67,7 +67,7 @@
       <workItem from="1762539604080" duration="695000" />
       <workItem from="1762540608937" duration="10206000" />
       <workItem from="1762551958616" duration="5390000" />
-      <workItem from="1762588502682" duration="9370000" />
+      <workItem from="1762588502682" duration="17720000" />
     </task>
     <task id="LOCAL-00001" summary="1. Model 2 layers 0.9001 0.2735">
       <option name="closed" value="true" />
@@ -77,7 +77,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762556462055</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2. Model 2 layers with glove 0.8723 0.2993">
+      <option name="closed" value="true" />
+      <created>1762607774764</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1762607774764</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +104,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1. Model 2 layers 0.9001 0.2735" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Model 2 layers 0.9001 0.2735" />
+    <MESSAGE value="2. Model 2 layers with glove 0.8723 0.2993" />
+    <option name="LAST_COMMIT_MESSAGE" value="2. Model 2 layers with glove 0.8723 0.2993" />
   </component>
 </project>
