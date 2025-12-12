@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cae40d1-55dc-4d3e-b0e7-16a960e3177b" name="Changes" comment="2. Model 2 layers with glove 0.8723 0.2993">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lstm.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lstm.ipynb" afterDir="false" />
+    <list default="true" id="4cae40d1-55dc-4d3e-b0e7-16a960e3177b" name="Changes" comment="gerai">
+      <change beforePath="$PROJECT_DIR$/transformer_tuned.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/transformer_tuned.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +30,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/minda/PycharmProjects/ImdbSentimentAnalysis/data&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -51,7 +50,6 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.27397.106" />
         <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
       </set>
     </attachedChunks>
@@ -68,6 +66,12 @@
       <workItem from="1762540608937" duration="10206000" />
       <workItem from="1762551958616" duration="5390000" />
       <workItem from="1762588502682" duration="17720000" />
+      <workItem from="1762784251228" duration="3263000" />
+      <workItem from="1765570028397" duration="114000" />
+      <workItem from="1765572995207" duration="2193000" />
+      <workItem from="1765576541287" duration="20000" />
+      <workItem from="1765576570654" duration="180000" />
+      <workItem from="1765576763157" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="1. Model 2 layers 0.9001 0.2735">
       <option name="closed" value="true" />
@@ -85,7 +89,55 @@
       <option name="project" value="LOCAL" />
       <updated>1762607774764</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactor">
+      <option name="closed" value="true" />
+      <created>1762784596156</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1762784596156</updated>
+    </task>
+    <task id="LOCAL-00004" summary="initial transformers">
+      <option name="closed" value="true" />
+      <created>1765575260234</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1765575260234</updated>
+    </task>
+    <task id="LOCAL-00005" summary="go sleep">
+      <option name="closed" value="true" />
+      <created>1765582526949</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1765582526949</updated>
+    </task>
+    <task id="LOCAL-00006" summary="tuned">
+      <option name="closed" value="true" />
+      <created>1765626901344</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1765626901344</updated>
+    </task>
+    <task id="LOCAL-00007" summary="tuned">
+      <option name="closed" value="true" />
+      <created>1765626919994</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1765626919994</updated>
+    </task>
+    <task id="LOCAL-00008" summary="gerai">
+      <option name="closed" value="true" />
+      <created>1765629107925</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1765629107925</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +157,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1. Model 2 layers 0.9001 0.2735" />
     <MESSAGE value="2. Model 2 layers with glove 0.8723 0.2993" />
-    <option name="LAST_COMMIT_MESSAGE" value="2. Model 2 layers with glove 0.8723 0.2993" />
+    <MESSAGE value="refactor" />
+    <MESSAGE value="initial transformers" />
+    <MESSAGE value="go sleep" />
+    <MESSAGE value="tuned" />
+    <MESSAGE value="gerai" />
+    <option name="LAST_COMMIT_MESSAGE" value="gerai" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/lstm.ipynb</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
